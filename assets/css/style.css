@@ -1,0 +1,83 @@
+/* Cleaning */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+
+header{
+
+    height: 20em;
+    background-image: url("../imgs/header-crypto.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+header .text-header{
+
+    color: white;
+    padding-top: 8em;
+    padding-left: 10em;
+   
+   
+}
+
+.text-header h1 strong{
+    font-size: 3rem;
+}
+
+/* Content*/
+.content{
+   width: 100%;
+}
+
+
+.content table{
+    
+    width: 100%;
+}
+.content table tr td{
+   
+    width: 50%;
+    padding-top: 5%;
+    text-align: right;
+    
+
+}
+
+.content td img{
+    width: 400px;
+    border-radius: 20px;
+    
+}
+
+.content td p{
+    text-align: center;
+    
+}
+
+.content td .product{
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
+
+/* Footer*/
+
+footer{
+    margin-top: 5%;
+    background-color:black;
+    color: white;
+    font-size: small;
+    text-align: center;
+    border: solid 1px;
+}
